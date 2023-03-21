@@ -13,10 +13,7 @@
 
 function checkAge(name, age) {
     // Check whether the age is 21 
-    if (age >= 21) {
-        return "welcome, " + name + "!"
-    }
-    return "go back home, " + name + "!";
+    return age >= 21 ? "welcome, " + name + "!" : "go back home, " + name + "!";
     // if age is 21 welcome message should be displayed
     // if not go back to home
 
